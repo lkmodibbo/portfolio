@@ -1,0 +1,46 @@
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 3rem 2rem;
+  background: #112240;
+  color: #fff;
+  min-height: 100vh;
+  text-align: center;
+  flex-wrap: wrap;
+}
+
+.profile-pic {
+  width: 200px;
+  height: 200px;
+  border-radius: 50%;
+  border: 4px solid #64ffda;
+  margin-bottom: 1.5rem;
+}
+
+.hero-text h1 {
+  font-size: 2rem;
+}
+
+.hero-text h1 span {
+  color: #64ffda;
+}
+
+.hero-links {
+  margin-top: 1rem;
+}
+
+.hero-links a {
+  margin: 0 0.5rem;
+  padding: 0.5rem 1rem;
+  border: 1px solid #64ffda;
+  border-radius: 6px;
+  color: #64ffda;
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s;
+}
+
+.hero-links a:hover {
+  background: #64ffda;
+  color: #0a192f;
+}
